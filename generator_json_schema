@@ -1,0 +1,9 @@
+{
+  "name": "{{lorem(3, "words")}}",
+  "age": {{integer(5, 100)}},
+  "uuid": "{{uuid()}}",
+  "cholesterol_levels": {{float(0, 400)}},
+  "test_time": {{timestamp()}},
+  "birth_date": {{timestamp()}},
+  "bytes_content": "{{hex(300)}}"
+}
